@@ -1,39 +1,13 @@
 # OpenVAS
-## Lab Outline: Azure Vulnerability Management
+## Azure Vulnerability Management
 
 ### Prepare Vulnerability Management Scanner
 <img width="890" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8740ab1b-e972-4741-a7df-bdc7d883c24a">
 
-1. Go to [Azure Portal](https://portal.azure.com)
-2. Navigate to the Marketplace and search for "OpenVAS secured and supported by HOSSTED"
-3. Choose the "Start with a pre-set configuration" option and select the weakest configuration.
-4. Click "Continue to Create VM"
-5. Configure the VM:
-   - Resource Group: Vulnerability-Management
-   - VM Name: OpenVAS (Take note of the region and Vnet–consider East US 2)
-   - Authentication: Username → azureuser / Cyberlab123!
-   - Monitoring: Disable Boot Diagnostic
-6. Click "Create" to create the VM.
-7. Once the VM is created, SSH into it using PowerShell (Windows) or Terminal (MacOS) with the provided credentials.
-8. Wait until the deployment of OpenVAS is complete.
-
 ### Create Client Virtual Machine and Make it Vulnerable
 <img width="752" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/493ed685-70f8-4260-84fb-037bd01c53fa">
 
-1. Go to [Azure Portal](https://portal.azure.com)
-2. Search for Virtual Machines and create a new Virtual Machine.
-3. Configure the VM:
-   - Resource Group: Vulnerability-Management
-   - VM Name: Win10-Vulnerable
-   - Region: Same as the OpenVAS VM (East US 2)
-   - Virtual Network: Same as OpenVAS
-   - Image: Windows 10 Pro
-   - Size: Any size with 2 vCPUs
-   - Username: azureuser / Cyberlab123!
-   - Networking: Same Vnet as OpenVAS
-4. Create the VM.
-5. Once the VM is created, ensure you can RDP into it with the provided credentials.
-6. After logging in, make the VM vulnerable:
+
    - Disable the Windows Firewall
    - Gather up some [Old Software](https://drive.google.com/drive/folders/1n83ilCjZWZulbDdYnUe9wQPK2buY47_U?usp=sharing)
    - Install an Old Version of FireFox: Firefox Setup 97.0b5
