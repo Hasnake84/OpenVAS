@@ -1,6 +1,14 @@
 # OpenVAS
 ## Azure Vulnerability Management
 
+## Objectives
+- Set up a secure Azure network with an OpenVAS Vulnerability Management Scanner Virtual Machine
+- Deploy a vulnerable Windows 10 VM with outdated software and disable security controls
+- Perform credentialed and unauthenticated vulnerability scans using OpenVAS
+- Analyze the scan results between unauthenticated and credentialed scans, highlighting the differences
+- Remeidiate the identified vulnerabilities
+- verify the successful remediation with subsequent scan
+  
 ### Step 1. Prepare Vulnerability Management Scanner
 <a href="https://imgur.com/LPv3R3r"><img src="https://i.imgur.com//LPv3R3r.png" title="source: imgur.com" /></a>
 
