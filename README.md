@@ -21,7 +21,7 @@
 4. Install an Old Version of Adobe Reader: 10.0_AdbeRdr1000_en_US_1_
 5. Restart the VM.
 
-### Step 3. Configure OpenVAS to Perform First Unauthenticated Scan against our Vulnerable VM
+### Step 3. Configure OpenVAS to Perform First Unauthenticated Scan against the Vulnerable VM
 <a href="https://imgur.com/0IoC9MH"><img src="https://i.imgur.com//0IoC9MH.png" title="source: imgur.com" /></a>
 
 1. Added the Client VM PRIVATE IP Address
