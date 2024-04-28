@@ -31,7 +31,6 @@
 5. Start a scan
 
 ### Step 4. Make Configurations for Credentialed Scans on target VM
-<a href="https://imgur.com/fAMrBVc"><img src="https://i.imgur.com//fAMrBVc.png" title="source: imgur.com" /></a>
 
 1. Disable Windows Firewall.
 2. Disable User Account Control.
@@ -44,6 +43,9 @@
      - Name: LocalAccountTokenFilterPolicy
      - Value: 1
    - Close Registry Editor.
+     
+<a href="https://imgur.com/fAMrBVc"><img src="https://i.imgur.com//fAMrBVc.png" title="source: imgur.com" /></a>
+
 5. Restart the VM.
 
 ### Step 5. Make Configurations for Credentialed Scans (OpenVAS)
